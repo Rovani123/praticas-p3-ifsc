@@ -23,7 +23,7 @@ public class Animal {
 	}
 	
 	public void caminha() {
-		
+		System.out.println("Estoy a caminhar");
 	}
 	
 	public Float getComprimento() {

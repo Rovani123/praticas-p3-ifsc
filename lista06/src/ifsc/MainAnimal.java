@@ -22,6 +22,7 @@ public class MainAnimal {
 		gato.setCor("preto");
 		gato.setEcossistema("rua");
 		
+		pintcher.caminha();
 		pintcher.late();
 		System.out.println(pintcher.getNome());
 		System.out.println(pintcher.getRaca());
@@ -32,6 +33,7 @@ public class MainAnimal {
 		
 		System.out.println("");
 		
+		gato.caminha();
 		gato.mia();
 		System.out.println(gato.getNome());
 		System.out.println(gato.getRaca());
