@@ -75,7 +75,9 @@ public class MainProduto {
 			System.out.println(desktop.getFabricante());
 			System.out.println(desktop.getCodBarras());
 			System.out.println(desktop.getGamer());
-			System.out.println(desktop.getPecas());
+			for (String item : desktop.getPecas()) {
+				System.out.println(item);
+			}
 			System.out.println("");
 		}
 
